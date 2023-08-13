@@ -17,7 +17,7 @@ irm https://massgrave.dev/get | iex
 
 Rename PC, change `your-pc-name` into yours
 ```shell
-Rename-Computer -NewName "lamgaolaptop" -Force
+Rename-Computer -NewName "your-pc-name" -Force
 ```
 
 # For my PC

@@ -28,6 +28,11 @@ WSL
 wsl --install
 ```
 
+```shell
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/install-mypc.ps1'))
+```
+
+
 below is my script to test run
 ```shell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/test.ps1'))

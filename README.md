@@ -22,18 +22,25 @@ Rename-Computer -NewName "your-pc-name" -Force
 
 # For my PC
 
-WSL
+## WSL
 
 ```shell
 wsl --install
 ```
 
+## Authy, Ubuntu 22.04, VS Code, Notepad++, MS Powertoys, HWMonitor, CPU-Z, Wireguard, Capcut, Postman Agent
+
+Modify `install-mypc.ps1` if you use my script
+
 ```shell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/install-mypc.ps1'))
 ```
 
+## Initial Ubuntu development environments with Docker, Docker-Compose, Oh My Zsh (with powerlevel10k theme), NodeJS LTS
 
-below is my script to test run
+I use [cristian-aldea/slick-terminal.md gist](https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324)
+
+Below is another test run script, just leave him alone.
 ```shell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/test.ps1'))
 ```

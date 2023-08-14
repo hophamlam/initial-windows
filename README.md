@@ -2,6 +2,8 @@
 
 This script will install [Microsoft Office (365 Business)](https://www.microsoft.com/vi-vn/microsoft-365),  [Teamviewer](https://www.teamviewer.com/), [Bing Wallpaper](https://www.microsoft.com/en-us/bing/bing-wallpaper), [ZaloPC](https://zalo.me/pc) using [Winget](https://winget.run/) contains:
 
+Run Powershell (Start->Powershell) and paste the script below
+
 ```shell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/install-common.ps1'))
 ```

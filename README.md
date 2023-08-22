@@ -40,6 +40,14 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 ## Initial Ubuntu development environments with Docker, Docker-Compose, Oh My Zsh (with powerlevel10k theme), NodeJS LTS
 
+Install `Docker` and `Docker Compose`
+
+```bash
+curl -fsSL https://get.docker.com | bash
+```
+
+Optional: add user to docker group (to use docker command without sudo)
+
 I use [cristian-aldea/slick-terminal.md gist](https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324)
 
 Below is another test run script, just leave him alone.

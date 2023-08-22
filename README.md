@@ -52,6 +52,12 @@ Optional: add user to docker group (to use docker command without sudo)
 sudo usermod -a -G docker $USER
 ```
 
+Optional: start docker service incase of `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?`
+
+```bash
+sudo service docker start
+```
+
 I use [cristian-aldea/slick-terminal.md gist](https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324)
 
 Below is another test run script, just leave him alone.

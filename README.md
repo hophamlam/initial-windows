@@ -48,6 +48,10 @@ curl -fsSL https://get.docker.com | bash
 
 Optional: add user to docker group (to use docker command without sudo)
 
+```bash
+sudo usermod -a -G docker $USER
+```
+
 I use [cristian-aldea/slick-terminal.md gist](https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324)
 
 Below is another test run script, just leave him alone.

@@ -38,7 +38,7 @@ Modify `install-mypc.ps1` if you use my script
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/install-mypc.ps1'))
 ```
 
-## Initial Ubuntu development environments with Docker, Docker-Compose, Oh My Zsh (with powerlevel10k theme), NodeJS LTS
+## Initial setup Ubuntu development environments with Docker, Docker Compose, Oh My Zsh (with powerlevel10k theme), NodeJS LTS inside `Ubuntu`
 
 Install `Docker` and `Docker Compose`
 

@@ -38,34 +38,9 @@ Modify `install-mypc.ps1` if you use my script
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hophamlam/initial-windows/main/install-mypc.ps1'))
 ```
 
-## Initial setup Ubuntu development environments with Docker, Docker Compose, Oh My Zsh (with powerlevel10k theme), NodeJS LTS inside `Ubuntu`
-
-Install `Docker` and `Docker Compose`
-
-```bash
-curl -fsSL https://get.docker.com | bash
-```
-
-Optional: add user to docker group (to use docker command without sudo)
-
-```bash
-sudo usermod -a -G docker $USER
-```
-
-Optional: start docker service incase of `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?`
-
-```bash
-sudo service docker start
-```
+## Initial setup Ubuntu development environments with Oh My Zsh (with powerlevel10k theme), NodeJS LTS inside `Ubuntu`
 
 I use [cristian-aldea/slick-terminal.md gist](https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324)
-
-Install Portainer
-
-```bash
-docker volume create portainer_data
-docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-```
 
 Below is another test run script, just leave him alone.
 ```shell

@@ -1,3 +1,4 @@
+winget install -e --id Docker.DockerDesktop
 winget install -e --id Twilio.Authy --force	--accept-source-agreements 
 winget install -e --id Canonical.Ubuntu.2204 --force --accept-source-agreements 
 winget install -e --id Microsoft.VisualStudioCode --force --accept-source-agreements
